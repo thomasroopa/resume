@@ -1,0 +1,161 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Font options
+\usepackage[sfdefault]{roboto}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{\Large\bfseries\scshape\raggedright}{}{0em}{}[\titrule]
+
+% Ensure PDF is machine readable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingList}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge Roopa Saira Thomas} \\
+  \small 347-216-6462 $|$ \href{mailto:roopasairathomas@gmail.com}{roopasairathomas@gmail.com} $|$ 
+  \href{https://linkedin.com/in/roopa-saira-thomas}{linkedin.com/in/roopa-saira-thomas}
+\end{center}
+
+\section*{Professional Summary}
+Analytical Structural Engineer moving into AI Automation and Agentic Workflow Development. Specialized in architecting Self-Healing Compliance Engines and Multimodal RAG agents using n8n, Mistral-Large, and Vector Databases. Applies structural design logic to digital automation, optimizing complex regulatory requirements and unstructured data for improved business outcomes.
+
+\section{Technical Skills}
+\resumeSubHeadingList
+  \resumeItem{\textbf{AI and No-Code Tools}: n8n, Mistral-Large, multimodal RAG, Pinecone, PG Vector}
+  \resumeItem{\textbf{Automation}: Selenium}
+  \resumeItem{\textbf{Engineering Software}: AutoCAD, Staad Pro, ANSYS, Solid Edge, Quadra}
+  \resumeItem{\textbf{Core Competencies}: Workflow architecture, technical documentation, data normalization, project management}
+\resumeSubHeadingListEnd
+
+\section{Ai And Automation Projects}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Agentic Self-Healing Compliance System (SEC/FINRA 2026)}{2026}
+      {Automation Architect}{n8n, Mistral-Large}
+      \resumeSubHeadingList
+          \resumeItem{Architected an automated regulatory remediation system using n8n and Mistral-Large to meet 2026 SEC/FINRA standards.}
+          \resumeItem{Developed a JavaScript Validation Layer that autonomously detects compliance gaps and triggers "self-healing" loops to correct data before final submission.}
+          \resumeItem{Integrated Vector RAG to allow the agent to cross-reference internal documents against real-time regulatory databases.}
+      \resumeSubHeadingListEnd
+
+  \resumeSubheading
+      {Legal-AI: Automated Contract Triage (HITL)}{2025}
+      {Workflow Developer}{n8n, HITL}
+      \resumeSubHeadingList
+          \resumeItem{Engineered a Human-in-the-Loop (HITL) system to classify and risk-score legal contracts.}
+          \resumeItem{Utilized n8n to automate the extraction of high-risk clauses, reducing manual review time for legal teams.}
+      \resumeSubHeadingListEnd
+
+  \resumeSubheading
+      {Enterprise Insurance Document Intelligence Agent}{2025}
+      {RAG Specialist}{Pinecone, Multimodal RAG}
+      \resumeSubHeadingList
+          \resumeItem{Built a multimodal RAG system to process and query insurance PDFs and images.}
+          \resumeItem{Implemented vector storage with Pinecone for high-precision data retrieval, significantly reducing policy review time.}
+      \resumeSubHeadingListEnd
+
+  \resumeSubheading
+      {Automated Document Management Ecosystem}{2025}
+      {Automation Lead}{n8n, Google Drive API}
+      \resumeSubHeadingList
+          \resumeItem{Developed an end-to-end n8n workflow that detects embedded images in emails and automatically routes them to dynamically created folders in Google Drive.}
+          \resumeItem{Eliminated manual data entry by automating file naming conventions and directory structures.}
+      \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\section{Professional Experience}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Independent Technical Consultant}{Jan 2018 -- Jan 2021}
+      {Technical Consultant}{Technical Design \& Supervision}
+      \resumeSubHeadingList
+          \resumeItem{Led technical design reviews and structural assessments for significant church renovation.}
+          \resumeItem{Collaborated with construction firm on site supervision throughout project transitions.}
+          \resumeItem{Produced detailed technical documentation to ensure clarity and consistency in execution.}
+      \resumeSubHeadingListEnd
+
+  \resumeSubheading
+      {BTC College of Engineering and Technology}{Aug 2017 -- July 2018}
+      {Assistant Professor}{Academic Quality Assurance}
+      \resumeSubHeadingList
+          \resumeItem{Instructed courses in Geotechnical Engineering and Fluid Mechanics.}
+          \resumeItem{Managed Staad Pro Lab and led departmental internal monitoring for academic quality assurance and served as Class Tutor for engineering cohorts.}
+      \resumeSubHeadingListEnd
+
+  \resumeSubheading
+      {Skyline Builders}{Aug 2016 -- May 2017}
+      {Trainee Engineer}{Conformity \& Estimates}
+      \resumeSubHeadingList
+          \resumeItem{Produced client drawings, extra work estimates and handled municipal/fire department conformity approvals.}
+          \resumeItem{Ensured drawings met strict conformity and accuracy standards for municipalities and fire departments.}
+      \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingList
+  \resumeSubheading
+      {JCT College of Engineering And Technology (Anna University)}{}
+      {Master of Engineering (M.E.) Structural Engineering | GPA: 77\%}{}
+  \resumeSubheading
+      {Vivekanandha College of Technology (Anna University)}{}
+      {Bachelor of Engineering (B.E.) Civil Engineering | GPA: 78\%}{}
+\resumeSubHeadingListEnd
+
+\section{Publications, Training \& Languages}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Publications}: Concrete Replacement with GGBS and Rice Husk Ash (IJSR); Stabilization of Expansive Soil using Fly ash (IJRCE)}
+  \resumeItem{\textbf{Training}: FEA of Building Structures using ANSYS}
+  \resumeItem{\textbf{Languages}: English, Hindi, Tamil, French, Malayalam}
+\resumeSubHeadingListEnd
+
+\section{References}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Mr. Gnanraj Devadoss}, Asst.Engineer, Mettur Thermal Power Station, +91 9894200772}
+  \resumeItem{\textbf{Dr. Abilash K.S}, Former Principal, BTC College, Koothattukulam, Kerala, +91 7907105628}
+\resumeSubHeadingListEnd
+
+\end{document}

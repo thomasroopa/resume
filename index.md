@@ -1,3 +1,8 @@
+---
+layout: default
+title: My Resume
+theme: jekyll-theme-minimal
+---
 <div class="center">
 
 **Roopa Saira Thomas**\

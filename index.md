@@ -1,7 +1,7 @@
 <div class="center">
 
 **Roopa Saira Thomas**\
-347-216-6462 $`|`$ <roopasairathomas@gmail.com> $`|`$
+$`|`$ <roopasairathomas-at-gmail.com> $`|`$
 [linkedin.com/in/roopa-saira-thomas](https://linkedin.com/in/roopa-saira-thomas)
 
 </div>

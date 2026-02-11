@@ -4,4 +4,4 @@ services:
     volumes:
       - .:/data
     # This command runs by default when you start the container
-    command: resume.tex -t gfm -o resume.md
+    command: resume.tex -t gfm -o index.md

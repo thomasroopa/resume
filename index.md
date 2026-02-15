@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Roopa Saira Thomas - Resume
+title: " "
 theme: jekyll-theme-minimal
 ---
 

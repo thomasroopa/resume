@@ -1,8 +1,13 @@
 ---
 layout: default
 title: " "
-theme: jekyll-theme-minimal
 ---
+
+<style>
+  header { display: none !important; }
+  .wrapper { max-width: 800px !important; margin: 0 auto !important; }
+  section { width: 100% !important; float: none !important; }
+</style>
 
 # Roopa Saira Thomas
 **AI Automation & Structural Engineer** [linkedin.com/in/roopa-saira-thomas](https://linkedin.com/in/roopa-saira-thomas) | roopasairathomas-at-gmail.com

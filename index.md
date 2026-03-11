@@ -25,6 +25,11 @@ Analytical Structural Engineer moving into AI Automation and Agentic Workflow De
 
 ## AI and Automation Projects
 
+### The Shadow Evaluator: Dual‑Agent Self‑Healing Content System
+*2026 | Workflow Automation Engineer | n8n, OpenAI GPT‑4, Google Gemini*
+* Built a multi‑agent n8n workflow where one LLM generates technical content and a second LLM judges quality, enforcing an 8/10 score threshold before delivery.
+* Implemented an automated refinement loop with capped retries that routes low‑scoring drafts back to the creator agent, producing production‑ready reports from Caddy web form input to Gmail output.
+
 ### Agentic Self-Healing Compliance System (SEC/FINRA 2026)
 *2026 | Automation Architect | n8n, Mistral-Large*
 * Architected an automated regulatory remediation system using n8n and Mistral-Large to meet 2026 SEC/FINRA standards.

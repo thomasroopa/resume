@@ -25,28 +25,28 @@ Analytical Structural Engineer moving into AI Automation and Agentic Workflow De
 
 ## AI and Automation Projects
 
-### The Shadow Evaluator: Dual‑Agent Self‑Healing Content System
+### [The Shadow Evaluator: Dual‑Agent Self‑Healing Content System](https://github.com/thomasroopa/n8n-shadow-evaluator)
 *2026 | Workflow Automation Engineer | n8n, OpenAI GPT‑4, Google Gemini*
 * Built a multi‑agent n8n workflow where one LLM generates technical content and a second LLM judges quality, enforcing an 8/10 score threshold before delivery.
 * Implemented an automated refinement loop with capped retries that routes low‑scoring drafts back to the creator agent, producing production‑ready reports from Caddy web form input to Gmail output.
 
-### Agentic Self-Healing Compliance System (SEC/FINRA 2026)
+### [Agentic Self-Healing Compliance System (SEC/FINRA 2026)](https://github.com/thomasroopa/n8n-compliance-system)
 *2026 | Automation Architect | n8n, Mistral-Large*
 * Architected an automated regulatory remediation system using n8n and Mistral-Large to meet 2026 SEC/FINRA standards.
 * Developed a JavaScript Validation Layer that autonomously detects compliance gaps and triggers "self-healing" loops.
 * Integrated Vector RAG to allow the agent to cross-reference internal documents against real-time regulatory databases.
 
-### Legal-AI: Automated Contract Triage (HITL)
+### [Legal-AI: Automated Contract Triage (HITL)](https://github.com/thomasroopa/n8n-legal-ai)
 *2025 | Workflow Developer | n8n, HITL*
 * Engineered a Human-in-the-Loop (HITL) system to classify and risk-score legal contracts.
 * Utilized n8n to automate the extraction of high-risk clauses, reducing manual review time for legal teams.
 
-### Enterprise Insurance Document Intelligence Agent
+### [Enterprise Insurance Document Intelligence Agent](https://github.com/thomasroopa/n8n-insurance-intel)
 *2025 | RAG Specialist | Pinecone, Multimodal RAG*
 * Built a multimodal RAG system to process and query insurance PDFs and images.
 * Implemented vector storage with Pinecone for high-precision data retrieval.
 
-### Automated Document Management Ecosystem
+### [Automated Document Management Ecosystem](https://github.com/thomasroopa/n8n-doc-management)
 *2025 | Automation Lead | n8n, Google Drive API*
 * Developed an end-to-end n8n workflow that detects embedded images in emails and automatically routes them to folders.
 * Eliminated manual data entry by automating file naming conventions and directory structures.

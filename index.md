@@ -1,10 +1,11 @@
 ---
 layout: default
-title: " "
+title: ""
 ---
 
 <style>
   header { display: none !important; }
+  #main_content h1:first-child { display: none !important; }
   .wrapper { max-width: 800px !important; margin: 0 auto !important; }
   section { width: 100% !important; float: none !important; }
 </style>
